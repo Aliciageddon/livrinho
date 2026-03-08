@@ -566,24 +566,98 @@ const capitulosParaTodos = [
         id: 1,
         livroId: 1,
         numero: 1,
-        titulo: "O Primeiro Silêncio",
-        conteudo: `O som do relógio na parede era o único que ousava romper o silêncio da biblioteca municipal. Agatha observava as estantes como se elas pudessem confessar um crime.
+        titulo: "Prefácio",
+        conteudo: `Estou voltando do trabalho, a chuva tinha começado a pouco tempo, mas ja quase não consigo ver por
+conta da grossura; o som das ruas misturado com a chuva me deixa atordoada, quase não consigo escutar meus pensamentos. Sinto olhos atrás das minhas costas, não literalmente, mas sim a sensação de que alguém está observando, prevendo cada
+mísero passo que dou.
 
-O assistente entregou a ela um livro envolto em plástico. A Megera Domada. Abriu na página marcada e leu a dedicatória escrita à mão: "De seu filho querido, para minha mãe amada. - G. A."
+Comecei a olhar a pessoa que estava atrás de mim pela sombra que seu corpo alto faz, o desespero me consome aos poucos, na rua somente nós estávamos lá, tomei a decisão de entrar na primeira porta aberta que encontrar, que neste horário era algo quase impossível.
+O lugar mais próximo era uma biblioteca, tentei disfarçar, mesmo assim ele continua a me seguir, tento ir mais rápido para despista-lo, uma mulher chega a dizer algo, mas meu foco era outro.
 
-O terceiro crime. O terceiro livro. E ainda nenhuma pista sólida.`,
+Já escondida, não fazer barulho era a prioridade, seus passos eram pesados e arrastados, a mulher falou novamente, a agonia está me corroendo, mudo de esconderijo, mas mesmo fazendo tudo que posso ele me acha, encurralou me entre uma mesa e uma pilastra, a sombra pegou uma tesoura que estava em cima da mesa.
+
+Naquele instante estava tão em choque, a voz não conseguia sair de meus lábios, a tesoura veio em minha uma, duas, três vezes, depois da quarta já não poderia mais contar, a dor havia desaparecido e minha consciência ia se esvaindo.`,
         data: "2024-03-08"
     },
     {
         id: 2,
         livroId: 1,
         numero: 2,
-        titulo: "Vozes na Estante",
-        conteudo: `A biblioteca fechava às oito. Agatha entrou às sete e se escondeu entre as estantes do fundo.
+        titulo: "A Megera Domada",
+        conteudo: `Capítulo 1 - parte 1
+A chuva ainda estava presente, Agatha uma detetive de mais ou menos 32 anos, estava em sua casa cuidando de alguns relatórios, até ser interrompida por um telefonema.
 
-Quando o último funcionário saiu, as luzes se apagaram. Mas não completamente. Uma luz azulada vinha da seção de livros raros.
+— Oi Liz, o que aconteceu?
 
-Agatha se aproximou em silêncio e viu uma figura encapuzada folheando um livro. Era o mesmo livro. A Megera Domada.`,
+É Elizabeth, uma policial da minha equipe, temos uma relação levemente próxima. No telefone é possível ouvir um pouco de burburinho ao fundo, sua voz estava ofegante.
+
+— Ata ok, ah, oi Gata houve mais uma vitima, aparentemente foi outro alvo do Assassino da Biblioteca, até onde sei ela tá viva, pelo menos estava até chegar no hospital. Ééé tão pedindo para a gente ir ver ela e depois ir para a cena.
+
+Assassino da Biblioteca é o nome que demos para teoricamente um homem cujo o modus operandi é atacar mulheres, sempre em bibliotecas, é daí onde vem o nome, depois de ver a moça poderei confirmar se ele escolhe algum padrão físico ou de histórico de vida. Encerro a ligação dizendo que estou a caminho.
+
+Fui para a unidade de saúde com a viatura, minha colega estava me esperando logo na recepção, nos cumprimentamos e logo me entrega o prontuário da moça. Peatle Jackson, 27 anos, sem histórico médico, consideravelmente alta, magra. Vemos a mulher cheia de maquinas ao seu redor, chega a ser triste, uma enfermeira no seu lado juntamente com um homem, queríamos vê-la para saber o estado em que se encontrava, provavelmente só poderemos falar com ela daqui a algumas semanas.
+
+A confirmação do "tipo" do criminoso veio, mulheres sempre com as mesmas características físicas.
+
+Eu e Liz seguimos para a cena do crime, adentramos no local, tudo ainda estava molhado e temos que tomar cuidado para não o molhar mais ainda, fomos até o exato ponto do acontecimento, tinha muito sangue, a tesoura se encontrava lá, a retiramos para a inspeção.
+
+— Gata, acho que isso pode te interessar.
+
+Me dirijo até onde ela indicou, um livro estava repousado em uma dessas mesinhas, algo que confirmava que era ele, A Megera Domada, sua marca registrada, sempre com a mesma dedicatória.
+
+"Do seu filho querido, para minha mãe amada – G.A".
+
+— É ele né?
+
+— Pelo que tudo indica, sim.
+
+Ele também foi enviado para a análise forense, com todas as amostras coletadas, agora o objetivo era falar com a testemunha, pelo que sei é a recepcionista. Esse vai e vem já está me cansando, é mais ou menos 3 da manhã, depois de algum tempo trabalhando na área a gente se acostuma a trabalhar várias horas seguidas, ficar sem dormir, por mais cansativo que seja, a gratificação de solucionar um caso, livrar as possíveis vítimas futuras, buscar justiça pelas pessoas e suas famílias. Meus pensamentos foram interrompidos pela parada do carro, fomos recepcionadas pelo delegado Walter, um homem relativamente baixo e de pele retinta, minha companheira fala algo que não entendo, se despede e volta para seu trabalho.
+
+— Boa noite Agatha, a testemunha nos espera.
+
+— Boa noite Poe.
+
+O sigo até a sala, atrás do espelho falso se encontram 3 policias, no cômodo nós sentamos a frente de uma mesa o ''espelho'' fica a nosso lado.
+
+Eu começo a falar para tentar tranquiliza-la.
+
+— Só vamos fazer algumas perguntas, ok?
+
+A mulher era de idade, cabelos já grisalhos, rosto bem magro, aparentava estar bem nervosa, em suas mãos havia um pouco de sangue nas unhas.
+
+— T-ta bom.
+
+— O que aconteceu lá?
+
+A mulher permanece um tempo quieta, tentando regular a respiração.
+
+— Estava tarde, a chuva tinha começado a algum tempo, a moça entrou bem molhada até avisei para tomar cuidado, ela parecia estar meio avoada mas achei normal, principalmente por causa da idade dela, o criminoso entrou logo depois.
+
+Ela fez outra pausa, colocando as mãos no rosto.
+
+— Dei o mesmo aviso, ele seguiu o caminho para as prateleiras, se soubesse que aquilo aconteceria tentaria ajudar a moça.
+
+Ela funga, as lagrimas estavam escorrendo de seus olhos. Sai da sala e voltei com um copo de agua para a senhora, ela volta a falar, mas de um jeito mais pausado.
+
+— Se a senhora precisar de um tempo... Ela interrompe.
+
+— Não, está tudo bem. Passou um tempo, até eu ouvir um baq, fui checar o que era e lá estava a moça, no chão, o cara saiu correndo e fui logo pegar o telefone para ligar para a ambulância, e para os policias, ambulância tava demorando usei a roupa dela para tentar estancar o sangue.
+
+— A ambulância chegou, a polícia também e eu fui levada até aqui.
+
+— Você viu como era o suspeito?
+
+A partir desse momento quem conduzia o interrogatório era o delegado.
+
+— Ele usava um casaco preto com um capuz - sua face era de confusão, talvez tentando se lembrar do que viu.
+
+— Viu mais alguma coisa?
+
+— Não.
+
+— Isso foi tudo, obrigada pela colaboração, você pode voltar para casa.
+
+Ela se retirou, a segui para entregar meu número, Walter saiu logo depois.`,
         data: "2024-03-08"
     }
 ];
@@ -659,24 +733,98 @@ let capitulos = [
         id: 1,
         livroId: 1,
         numero: 1,
-        titulo: "O Primeiro Silêncio",
-        conteudo: `O som do relógio na parede era o único que ousava romper o silêncio da biblioteca municipal. Agatha observava as estantes como se elas pudessem confessar um crime.
+        titulo: "Prefácio",
+        conteudo: `Estou voltando do trabalho, a chuva tinha começado a pouco tempo, mas ja quase não consigo ver por
+conta da grossura; o som das ruas misturado com a chuva me deixa atordoada, quase não consigo escutar meus pensamentos. Sinto olhos atrás das minhas costas, não literalmente, mas sim a sensação de que alguém está observando, prevendo cada
+mísero passo que dou.
 
-O assistente entregou a ela um livro envolto em plástico. A Megera Domada. Abriu na página marcada e leu a dedicatória escrita à mão: "De seu filho querido, para minha mãe amada. - G. A."
+Comecei a olhar a pessoa que estava atrás de mim pela sombra que seu corpo alto faz, o desespero me consome aos poucos, na rua somente nós estávamos lá, tomei a decisão de entrar na primeira porta aberta que encontrar, que neste horário era algo quase impossível.
+O lugar mais próximo era uma biblioteca, tentei disfarçar, mesmo assim ele continua a me seguir, tento ir mais rápido para despista-lo, uma mulher chega a dizer algo, mas meu foco era outro.
 
-O terceiro crime. O terceiro livro. E ainda nenhuma pista sólida.`,
+Já escondida, não fazer barulho era a prioridade, seus passos eram pesados e arrastados, a mulher falou novamente, a agonia está me corroendo, mudo de esconderijo, mas mesmo fazendo tudo que posso ele me acha, encurralou me entre uma mesa e uma pilastra, a sombra pegou uma tesoura que estava em cima da mesa.
+
+Naquele instante estava tão em choque, a voz não conseguia sair de meus lábios, a tesoura veio em minha uma, duas, três vezes, depois da quarta já não poderia mais contar, a dor havia desaparecido e minha consciência ia se esvaindo.`,
         data: "2024-03-08"
     },
     {
         id: 2,
         livroId: 1,
         numero: 2,
-        titulo: "Vozes na Estante",
-        conteudo: `A biblioteca fechava às oito. Agatha entrou às sete e se escondeu entre as estantes do fundo.
+        titulo: "A Megera Domada",
+        conteudo: `Capítulo 1 - parte 1
+A chuva ainda estava presente, Agatha uma detetive de mais ou menos 32 anos, estava em sua casa cuidando de alguns relatórios, até ser interrompida por um telefonema.
 
-Quando o último funcionário saiu, as luzes se apagaram. Mas não completamente. Uma luz azulada vinha da seção de livros raros.
+— Oi Liz, o que aconteceu?
 
-Agatha se aproximou em silêncio e viu uma figura encapuzada folheando um livro. Era o mesmo livro. A Megera Domada.`,
+É Elizabeth, uma policial da minha equipe, temos uma relação levemente próxima. No telefone é possível ouvir um pouco de burburinho ao fundo, sua voz estava ofegante.
+
+— Ata ok, ah, oi Gata houve mais uma vitima, aparentemente foi outro alvo do Assassino da Biblioteca, até onde sei ela tá viva, pelo menos estava até chegar no hospital. Ééé tão pedindo para a gente ir ver ela e depois ir para a cena.
+
+Assassino da Biblioteca é o nome que demos para teoricamente um homem cujo o modus operandi é atacar mulheres, sempre em bibliotecas, é daí onde vem o nome, depois de ver a moça poderei confirmar se ele escolhe algum padrão físico ou de histórico de vida. Encerro a ligação dizendo que estou a caminho.
+
+Fui para a unidade de saúde com a viatura, minha colega estava me esperando logo na recepção, nos cumprimentamos e logo me entrega o prontuário da moça. Peatle Jackson, 27 anos, sem histórico médico, consideravelmente alta, magra. Vemos a mulher cheia de maquinas ao seu redor, chega a ser triste, uma enfermeira no seu lado juntamente com um homem, queríamos vê-la para saber o estado em que se encontrava, provavelmente só poderemos falar com ela daqui a algumas semanas.
+
+A confirmação do "tipo" do criminoso veio, mulheres sempre com as mesmas características físicas.
+
+Eu e Liz seguimos para a cena do crime, adentramos no local, tudo ainda estava molhado e temos que tomar cuidado para não o molhar mais ainda, fomos até o exato ponto do acontecimento, tinha muito sangue, a tesoura se encontrava lá, a retiramos para a inspeção.
+
+— Gata, acho que isso pode te interessar.
+
+Me dirijo até onde ela indicou, um livro estava repousado em uma dessas mesinhas, algo que confirmava que era ele, A Megera Domada, sua marca registrada, sempre com a mesma dedicatória.
+
+"Do seu filho querido, para minha mãe amada – G.A".
+
+— É ele né?
+
+— Pelo que tudo indica, sim.
+
+Ele também foi enviado para a análise forense, com todas as amostras coletadas, agora o objetivo era falar com a testemunha, pelo que sei é a recepcionista. Esse vai e vem já está me cansando, é mais ou menos 3 da manhã, depois de algum tempo trabalhando na área a gente se acostuma a trabalhar várias horas seguidas, ficar sem dormir, por mais cansativo que seja, a gratificação de solucionar um caso, livrar as possíveis vítimas futuras, buscar justiça pelas pessoas e suas famílias. Meus pensamentos foram interrompidos pela parada do carro, fomos recepcionadas pelo delegado Walter, um homem relativamente baixo e de pele retinta, minha companheira fala algo que não entendo, se despede e volta para seu trabalho.
+
+— Boa noite Agatha, a testemunha nos espera.
+
+— Boa noite Poe.
+
+O sigo até a sala, atrás do espelho falso se encontram 3 policias, no cômodo nós sentamos a frente de uma mesa o ''espelho'' fica a nosso lado.
+
+Eu começo a falar para tentar tranquiliza-la.
+
+— Só vamos fazer algumas perguntas, ok?
+
+A mulher era de idade, cabelos já grisalhos, rosto bem magro, aparentava estar bem nervosa, em suas mãos havia um pouco de sangue nas unhas.
+
+— T-ta bom.
+
+— O que aconteceu lá?
+
+A mulher permanece um tempo quieta, tentando regular a respiração.
+
+— Estava tarde, a chuva tinha começado a algum tempo, a moça entrou bem molhada até avisei para tomar cuidado, ela parecia estar meio avoada mas achei normal, principalmente por causa da idade dela, o criminoso entrou logo depois.
+
+Ela fez outra pausa, colocando as mãos no rosto.
+
+— Dei o mesmo aviso, ele seguiu o caminho para as prateleiras, se soubesse que aquilo aconteceria tentaria ajudar a moça.
+
+Ela funga, as lagrimas estavam escorrendo de seus olhos. Sai da sala e voltei com um copo de agua para a senhora, ela volta a falar, mas de um jeito mais pausado.
+
+— Se a senhora precisar de um tempo... Ela interrompe.
+
+— Não, está tudo bem. Passou um tempo, até eu ouvir um baq, fui checar o que era e lá estava a moça, no chão, o cara saiu correndo e fui logo pegar o telefone para ligar para a ambulância, e para os policias, ambulância tava demorando usei a roupa dela para tentar estancar o sangue.
+
+— A ambulância chegou, a polícia também e eu fui levada até aqui.
+
+— Você viu como era o suspeito?
+
+A partir desse momento quem conduzia o interrogatório era o delegado.
+
+— Ele usava um casaco preto com um capuz - sua face era de confusão, talvez tentando se lembrar do que viu.
+
+— Viu mais alguma coisa?
+
+— Não.
+
+— Isso foi tudo, obrigada pela colaboração, você pode voltar para casa.
+
+Ela se retirou, a segui para entregar meu número, Walter saiu logo depois.`,
         data: "2024-03-08"
     }
 ];
