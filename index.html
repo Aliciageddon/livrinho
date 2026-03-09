@@ -977,26 +977,6 @@ event.target.reset()
 carregarComentarios()
 
 }
-    event.preventDefault();
-    
-    const nome = document.getElementById('nome').value;
-    const texto = document.getElementById('texto').value;
-    const avaliacao = document.getElementById('avaliacao').value;
-    
-    const novoComentario = {
-        id: comentarios.length + 1,
-        nome: nome,
-        texto: texto,
-        data: new Date().toISOString().split('T')[0],
-        avaliacao: parseInt(avaliacao)
-    };
-    
-    comentarios.push(novoComentario);
-    carregarComentarios();
-    event.target.reset();
-    
-    alert('Sua voz foi ouvida. Obrigada por compartilhar!');
-}
 
 // Fechar modal com clique fora
 window.onclick = function(event) {
