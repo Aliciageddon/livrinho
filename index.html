@@ -556,7 +556,30 @@ margin-right:10px;
 <a href="#" onclick="mostrarPrivacidade()">Política de Privacidade</a>
 </div>
 </footer>
+<script type="module">
 
+import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+import { getFirestore, collection, addDoc, getDocs } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
+
+const firebaseConfig = {
+  apiKey: "AIzaSyBIO8mNfSqB79_VGJmen7Y26tJPDTA4b8o",
+  authDomain: "biblioteca-alicia.firebaseapp.com",
+  projectId: "biblioteca-alicia",
+  storageBucket: "biblioteca-alicia.firebasestorage.app",
+  messagingSenderId: "83469280599",
+  appId: "1:83469280599:web:0944990968e3ff9c7f0a12",
+  measurementId: "G-ZDQYD5YPYG"
+};
+
+const app = initializeApp(firebaseConfig);
+const db = getFirestore(app);
+
+window.db = db;
+window.collection = collection;
+window.addDoc = addDoc;
+window.getDocs = getDocs;
+
+</script>
 <script>
 // Sistema de temas
 let tema = 0;
@@ -919,8 +942,50 @@ function carregarComentarios() {
         `).join('');
     }
 }
+async function adicionarComentario(event){
 
-function adicionarComentario(event) {
+event.preventDefault()
+
+const nome = document.getElementById("nome").value
+const texto = document.getElementById("texto").value
+const avaliacao = document.getElementById("avaliacao").value
+
+await addDoc(collection(db,"comentarios"),{
+nome:nome,
+texto:texto,
+avaliacao:avaliacao,
+data:new Date().toISOString()
+})
+
+alert("Comentário salvo!")
+
+event.target.reset()
+
+async function carregarComentarios(){
+
+const lista = document.getElementById("lista-comentarios")
+
+const querySnapshot = await getDocs(collection(db,"comentarios"))
+
+let html=""
+
+querySnapshot.forEach((doc)=>{
+const comentario = doc.data()
+
+html += `
+<div class="comentario">
+<div class="comentario-header">
+<span class="comentario-nome">${comentario.nome}</span>
+</div>
+<div style="margin-bottom:10px;">${'⭐'.repeat(comentario.avaliacao)}</div>
+<div class="comentario-texto">${comentario.texto}</div>
+</div>
+`
+})
+
+lista.innerHTML = html
+
+}
     event.preventDefault();
     
     const nome = document.getElementById('nome').value;
