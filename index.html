@@ -926,44 +926,10 @@ function fecharModal() {
     modal.style.display = 'none';
     document.getElementById('conteudo-historia').innerHTML = '';
 }
-
-function carregarComentarios() {
-    const lista = document.getElementById('lista-comentarios');
-    if (lista) {
-        lista.innerHTML = comentarios.map(comentario => `
-            <div class="comentario">
-                <div class="comentario-header">
-                    <span class="comentario-nome">${comentario.nome}</span>
-                    <span class="comentario-data">${new Date(comentario.data).toLocaleDateString('pt-BR')}</span>
-                </div>
-                <div style="margin-bottom:10px;">${'⭐'.repeat(comentario.avaliacao)}</div>
-                <div class="comentario-texto">${comentario.texto}</div>
-            </div>
-        `).join('');
-    }
-}
-async function adicionarComentario(event){
-
-event.preventDefault()
-
-const nome = document.getElementById("nome").value
-const texto = document.getElementById("texto").value
-const avaliacao = document.getElementById("avaliacao").value
-
-await addDoc(collection(db,"comentarios"),{
-nome:nome,
-texto:texto,
-avaliacao:avaliacao,
-data:new Date().toISOString()
-})
-
-alert("Comentário salvo!")
-
-event.target.reset()
-
 async function carregarComentarios(){
 
 const lista = document.getElementById("lista-comentarios")
+if(!lista) return
 
 const querySnapshot = await getDocs(collection(db,"comentarios"))
 
@@ -976,6 +942,7 @@ html += `
 <div class="comentario">
 <div class="comentario-header">
 <span class="comentario-nome">${comentario.nome}</span>
+<span class="comentario-data">${new Date(comentario.data).toLocaleDateString('pt-BR')}</span>
 </div>
 <div style="margin-bottom:10px;">${'⭐'.repeat(comentario.avaliacao)}</div>
 <div class="comentario-texto">${comentario.texto}</div>
@@ -984,6 +951,30 @@ html += `
 })
 
 lista.innerHTML = html
+
+}
+
+
+async function adicionarComentario(event){
+
+event.preventDefault()
+
+const nome = document.getElementById("nome").value
+const texto = document.getElementById("texto").value
+const avaliacao = document.getElementById("avaliacao").value
+
+await addDoc(collection(db,"comentarios"),{
+nome:nome,
+texto:texto,
+avaliacao:parseInt(avaliacao),
+data:new Date().toISOString()
+})
+
+alert("Comentário salvo!")
+
+event.target.reset()
+
+carregarComentarios()
 
 }
     event.preventDefault();
